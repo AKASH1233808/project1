@@ -1,0 +1,15 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: red;
+}
+.h-custom {
+  height: calc(100% - 12px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 50%;
+  }
+}
